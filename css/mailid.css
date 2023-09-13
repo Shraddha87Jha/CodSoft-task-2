@@ -1,0 +1,93 @@
+:root {
+    background-color: #101010;
+  }
+  
+  .email-form {
+    max-width: 210mm;
+    margin: auto;
+    background-color: #202020;
+    border: solid 1px #707070;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Noto Sans';
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .email-form h1 {
+    margin-top: 0px;
+    padding-bottom: 1rem;
+  }
+  
+  .email-form > div {
+    padding-right: 10px;
+  }
+  
+  .email-form > .flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .email-form > .flex-container > div {
+    flex: 1 1 auto;
+  }
+  
+  .email-form > .flex-container :nth-child(1) {
+    padding-right: 20px;
+  }
+  
+  .email-form input, .email-form textarea {
+    width: 100%;
+    color: white;
+    font-family: 'Noto Sans';
+    font-size: 14px;
+    background-color: #303030;
+    border: solid 1.5px #707070;
+    border-radius: 5px;
+    margin-top: 8px;
+    height: 20px;
+    resize: none;
+    background:
+      linear-gradient(
+        to top,
+        #202020,
+        #303030
+      );
+  }
+  
+  .email-form #msg {
+    padding-bottom: 7rem;
+  }
+  
+  .email-form .output {
+    font-size: 12px;
+    opacity: 50%;
+    margin-left: auto;
+  }
+  
+  .email-form button {
+    margin-left: calc(100% - 1rem - 60px);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #505050;
+    background:
+      linear-gradient(
+        to top,
+        #202020,
+        #303030
+      );
+    border: solid 1.5px #707070;
+    border-radius: 4px;
+    color: #ffffff;
+  }
+  
+  .email-form ~ button:active {
+    box-shadow: 0px 0px 2px #707070;
+  }
+  .email-form ~ button:hover {
+    background-color: #656565;
+  }

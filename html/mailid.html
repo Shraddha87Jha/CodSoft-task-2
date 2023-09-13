@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/mailid.css">
+    <title>Contact via mail</title>
+</head>
+<body>
+    <form class="email-form">
+        <h1>Send me a mail!</h1>
+      
+        <div class="flex-container">
+          <div>
+            <label for="firstname">First name *<br></label>
+            <input type="text" name="firstname" id="fname" required placeholder="Andreas">
+          </div>
+      
+          <div>
+            <label for="lastname">Last name<br></label>
+            <input type="text" name="lastname" id="lname" placeholder="Unbekannt">
+          </div>
+        </div>
+      
+        <br>
+      
+        <div>
+          <label for="email">Email *<br></label>
+          <input type="email" name="email" id="email" required placeholder="zu@daheim.org">
+        </div>
+      
+        <br>
+      
+        <div>
+          <label for="msg">Your message<br></label>
+          <textarea aria-required="true" aria-invalid="false" placeholder="Write your message here …" spellcheck wrap="soft" name="msg" id="msg" maxlength=2000></textarea>
+        </div>
+      
+        <div class="flex-container">
+          <p style="opacity: 50%; font-size: 12px;">Fields with an asterisks (*) are required.</p>
+          <p class="output">0/2000</p>
+        </div>
+      
+        <button type="submit">Send</button>
+      
+        <p>Alternatively you can send an email at <a href="mailto:shraddhajha62@gmail.com">shraddhajha62@gmail.com</a>.</p>
+      </form>
+</body>
+</html>
